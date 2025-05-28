@@ -1,0 +1,93 @@
+{
+  "app": {
+    "layouts": {
+      "callback": {
+        "title": "Geri Yönlendirme • {title}",
+        "description": "{title} için geri yönlendirme durumu sayfası.",
+        "messages": {
+          "loading": "{type} hesabınız, {title} ile bağlantı kuruluyor...",
+          "connected": "{type} hesabınız başarıyla {title} ile bağlandı.",
+          "error": {
+            "connected": "{type} hesabınızı {title} ile bağlarken bir hata oluştu."
+          }
+        },
+        "submessages": {
+          "connected": "Bu pencereyi kapatarak {title} sayfasına geri dönebilirsiniz.",
+          "error": {
+            "connected": "Bağlantı sırasında bir hata oluştu. Lütfen bu pencereyi kapatıp tekrar deneyin."
+          }
+        }
+      },
+      "admin": {
+        "title": "Yönetici Paneli",
+        "breadcrumb": {
+          "homepage": "Ana Sayfa",
+          "admin": "Yönetici",
+          "users": "Kullanıcılar",
+          "search-user": "Kullanıcı Ara",
+          "applications": "Başvurular",
+          "finance": "Finans",
+          "supervisory": "Denetleyici",
+          "currencies": "Para Birimleri",
+          "analytics": "Analitikler",
+          "transactions": "İşlemler"
+        },
+        "sidebarItems": {
+          "index": {
+            "index": "Gösterge Paneli",
+            "homepage": "Ana Sayfa",
+            "searchUser": "Kullanıcı Ara"
+          },
+          "finance": {
+            "index": "Finans",
+            "currencies": "Para Birimleri",
+            "analytics": "Analitikler",
+            "transactions": "İşlemler"
+          },
+          "supervisory": {
+            "index": "Denetleyici",
+            "applications": "Başvurular"
+          }
+        }
+      },
+      "auth": {
+        "other": "Diğer Seçenekler",
+        "loginWith": "{company} İle Bağlan"
+      },
+      "dashboard": {
+        "title": "Kontrol Paneli",
+        "breadcrumb": {
+          "homepage": "Ana Sayfa",
+          "dashboard": "Kontrol Paneli",
+          "broadcast": "Yayın",
+          "history": "Yayın Geçmişi",
+          "content": "İçerik",
+          "broadcast-soundbites": "Yayın Sesleri",
+          "payment-history": "Ödeme Geçmişi",
+          "finance": "Finans",
+          "transactions": "İşlemler"
+        },
+        "sidebarItems": {
+          "index": {
+            "index": "Gösterge Paneli",
+            "homepage": "Ana Sayfa"
+          },
+          "finance": {
+            "index": "Finans",
+            "paymentHistory": "Ödeme Geçmişi",
+            "transactions": "İşlemler"
+          },
+          "content": {
+            "index": "İçerikler",
+            "broadcastSoundbites": "Yayın Sesleri"
+          },
+          "broadcast": {
+            "index": "Yayın",
+            "history": "Yayın Geçmişi"
+          }
+        }
+      },
+      "settings": "Ayarlar"
+    }
+  }
+}

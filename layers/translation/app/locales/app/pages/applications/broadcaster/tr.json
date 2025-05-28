@@ -1,0 +1,32 @@
+{
+  "app": {
+    "pages": {
+      "applications": {
+        "broadcaster": {
+          "toast": {
+            "error": "Başvuru oluşturulurken bir sorun oluştu",
+            "success": "Başvuru başarıyla oluşturuldu"
+          },
+          "button": "Başvur",
+          "title": "Yayıncı Başvurusu",
+          "description": "BROADCASTER (Yayıncı) rolüne hoş geldiniz! Bu programa katılarak, platformumuzda oluşturduğunuz içerikler üzerinden sürdürülebilir bir gelir elde etme fırsatını yakalayabilirsiniz. Platformumuz, ses içeriklerinizin yaratıcılığınızı, benzersiz dokunuşlarınızı ve profesyonelliğinizi sergilemeniz için ideal bir ortam sunar. Başvurunuz onaylandığında, yayın paneliniz aracılığıyla içeriklerinizi listeleyebilir, her bir ses için kendiniz belirlediğiniz kredi değerini tanımlayarak satışa sunabilirsiniz. Bu sistem sayesinde, dijital dünyada emeğinizin karşılığını almanız ve değerinizin artması sağlanacaktır.",
+          "subDescription": "BROADCASTER rolüne geçiş yaparak, içeriklerinizi daha geniş kitlelere ulaştırabilir ve ek gelir elde etme imkanını yakalayabilirsiniz. Başvurunuz, platformumuzun sunduğu özel yayıncılık deneyiminin kapılarını aralayacak; tüm süreç boyunca profesyonel destek, güncel bilgiler ve şeffaf yönetimle yanınızda olacağız. Sorularınız veya destek talepleriniz için lütfen bizimle iletişime geçmekten çekinmeyin.",
+          "items": {
+            "1": {
+              "title": "Nasıl Çalışır?",
+              "description": "Platformumuz, kullanıcıların kendi ses içeriklerini üretip paylaşmalarına olanak tanır. Her bir ses, özenle seçilen kapak görselleriyle desteklenir ve içeriğinizin çekiciliğini artırır. BROADCASTER rolünü üstlendiğinizde, oluşturduğunuz sesleri yayın panelinize ekleyerek, her bir içerik için kendinizin belirleyeceği kredi değerini atayabilirsiniz. Böylece, içeriklerinizi dilediğiniz gibi fiyatlandırıp satışa sunmanız mümkün hale gelir."
+            },
+            "2": {
+              "title": "Gelir Modeli",
+              "description": "Platformumuzda, 1 Kredi 1 Cent’e eşdeğer kabul edilmektedir. Başlangıçta, elde ettiğiniz kazançlardan varsayılan olarak %50 komisyon kesilmektedir. Ancak, eğer sözleşmeli bir yayıncıysanız, bu oran platform yönetimi tarafından belirlenen farklı bir yüzdeye güncellenebilir. Bu gelir modeli, şeffaflık ve adalet ilkeleri çerçevesinde oluşturulmuş olup, hem sizin hem de platformumuzun sürdürülebilir kazanç elde etmesini amaçlamaktadır."
+            },
+            "3": {
+              "title": "Satış & Komisyon",
+              "description": "Bir kullanıcı, yayın panelinizde listelenen ses içeriklerinden birini satın aldığında, ödenen krediden belirlenen komisyon oranı otomatik olarak kesilir ve kalan tutar doğrudan kazancınız olarak hesabınıza yansıtılır. Satın alma işlemi tamamlandığında, bu durum yayın ekranınızda net bir şekilde görüntülenir. Bu şeffaf sistem sayesinde, gelirleriniz gerçek zamanlı olarak takip edilebilir ve yönetilebilir."
+            }
+          }
+        }
+      }
+    }
+  }
+}

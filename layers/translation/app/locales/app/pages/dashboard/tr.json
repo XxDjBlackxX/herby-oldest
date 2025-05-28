@@ -1,0 +1,140 @@
+{
+  "app": {
+    "pages": {
+      "dashboard": {
+        "index": {
+          "homepage": {
+            "orbits": {
+              "available": {
+                "title": "Kullanılabilir Orbit",
+                "description": "Şu anda harcayabileceğin toplam orbit miktarı. Geçerli kurallar çerçevesinde bu bakiyeyi kullanabilirsin."
+              },
+              "pending": {
+                "title": "Bekleyen Orbit",
+                "description": "Onay sürecinde olan veya belirli koşullara bağlı orbitlerin. Gerekli şartlar sağlanana kadar bu bakiyeyi kullanamazsın."
+              },
+              "withdrawable": {
+                "title": "Çekilebilir Orbit",
+                "description": "Mevcut orbit bakiyenden çekim yapabileceğin tutar. Minimum çekim limiti ve geçerli koşullara uygun olduğu sürece çekim yapabilirsin."
+              }
+            },
+            "withdraw": {
+              "title": "Çekim Talebi Oluştur",
+              "description": "Hesabınızdaki bakiyenizi çekmek için bir talep oluşturabilirsiniz. Çekim talebiniz tamamlandıktan sonra, belirtilen yöntemle ödeme yapılacaktır. Lütfen çekim tutarını ve hedef bilgilerinizi doğru girdiğinizden emin olun.",
+              "button": "Talep Oluştur",
+              "insufficient": "Çekim talebi oluşturabilmek için bakiyenizin en az {amount} olması gerekmektedir.",
+              "form": {
+                "title": "Çekim Talebi",
+                "message": "IBAN'ınızı doğru girdiğinizden emin olun. Yanlış girilen bilgilerden dolayı sorumluluk kabul edilmez.",
+                "input": {
+                  "fullName": {
+                    "label": "İsim Soyisim",
+                    "placeholder": "Örneğin: Ankaralı Namık",
+                    "message": "Lütfen geçerli bir isim ve soyisim girin. Sadece harf ve boşluk kullanabilirsiniz."
+                  },
+                  "iban": {
+                    "label": "IBAN",
+                    "placeholder": "TR321...",
+                    "message": "IBAN'ınızı doğru formatta girin. (Örneğin: TR321234567890123456789012)"
+                  }
+                },
+                "button": "Talebi Gönder",
+                "toast": {
+                  "error": "Para çekim talebinde bir sorun oluştu. Lütfen tekrar deneyin veya destek ile iletişime geçin.",
+                  "success": "Para çekim talebiniz başarıyla oluşturuldu. İşleminiz inceleniyor."
+                }
+              }
+            }
+          }
+        },
+        "content": {
+          "broadcastSoundbites": {
+            "separator": {
+              "soundbites": "Kişisel Seslerim"
+            },
+            "table": {
+              "soundbite": "Ses",
+              "context": "Bağlam",
+              "orbit": "Satış Orbiti"
+            }
+          }
+        },
+        "finance": {
+          "paymentHistory": {
+            "table": {
+              "head": {
+                "status": "Ödeme Durumu",
+                "currency": "Para Birimi",
+                "totalPrice": "Ödeme Ücreti",
+                "id": "Ödeme Kimliği"
+              },
+              "cell": {
+                "status": {
+                  "pending": "Ödeme Bekliyor",
+                  "failed": "Ödeme Başarısız",
+                  "canceled": "Ödeme İptal Edildi",
+                  "success": "Ödeme Başarılı"
+                }
+              }
+            }
+          },
+          "transactions": {
+            "table": {
+              "head": {
+                "status": "İşlem Durumu",
+                "currency": "Para Birimi",
+                "type": "İşlem Türü",
+                "amount": "İşlem Miktarı",
+                "payee": "Alıcı",
+                "id": "İşlem Kimliği",
+                "priority": "Öncelik"
+              },
+              "cell": {
+                "status": {
+                  "pending": "İşlem Bekliyor",
+                  "failed": "İşlem Başarısız",
+                  "canceled": "İşlem İptal Edildi",
+                  "success": "İşlem Başarılı"
+                },
+                "type": {
+                  "income": "Gelir",
+                  "expense": "Gider",
+                  "withdraw": "Çekim"
+                },
+                "payee": "Alıcı bulunamadı veya girilmedi",
+                "priority": {
+                  "low": "Düşük",
+                  "high": "Öncelikli",
+                  "normal": "Normal"
+                }
+              }
+            }
+          }
+        },
+        "broadcast": {
+          "history": {
+            "separator": {
+              "soundbites": "Kişisel Seslerim"
+            },
+            "table": {
+              "head": {
+                "soundbite": "Ses",
+                "sender": "Gönderen",
+                "env": "Ortam",
+                "context": "Bağlam",
+                "orbit": "Satış Orbiti"
+              },
+              "cell": {
+                "env": {
+                  "test": "Test Sesi",
+                  "sale": "Satış"
+                },
+                "noOrbit": "Orbit Yok"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

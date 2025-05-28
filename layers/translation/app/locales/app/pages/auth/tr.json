@@ -1,0 +1,104 @@
+{
+  "app": {
+    "pages": {
+      "auth": {
+        "login": {
+          "label": "Giriş Yap",
+          "sublabel": "Tekrar hoş geldiniz! Aramıza yeniden katıldığınız için mutluyuz.",
+          "footer": {
+            "button": "Hesabınız Yok Mu?"
+          },
+          "toast": {
+            "error": "Giriş yaparken bir hata oluştu. Lütfen bilgilerinizi kontrol edip tekrar deneyiniz.",
+            "success": "Giriş başarılı, tekrar hoş geldiniz!"
+          },
+          "timeline": {
+            "verify": "Hesabınızın size ait olduğunu doğrulayın",
+            "submit": "Giriş Yap"
+          },
+          "input": {
+            "email": {
+              "label": "E-posta",
+              "message": "Lütfen geçerli bir e-posta adresi giriniz."
+            },
+            "password": {
+              "label": "Şifre",
+              "message": "Lütfen şifrenizi eksiksiz giriniz. Şifreniz en az 8 karakter olmalıdır."
+            }
+          }
+        },
+        "register": {
+          "label": "Hesap Oluştur",
+          "sublabel": "Hesabınızı oluşturduğunuzda, güvenli ve keyifli bir deneyim sizi bekliyor.",
+          "footer": {
+            "button": "Zaten Üyeliğiniz Var Mı?"
+          },
+          "toast": {
+            "error": "Kayıt sırasında bir hata oluştu. Lütfen bilgilerinizi kontrol edip tekrar deneyiniz.",
+            "success": "Kayıt başarılı, hoş geldiniz!"
+          },
+          "input": {
+            "name": {
+              "label": "Ad",
+              "message": "Lütfen adınızı eksiksiz giriniz."
+            },
+            "surname": {
+              "label": "Soyad",
+              "message": "Lütfen soyadınızı eksiksiz giriniz."
+            },
+            "email": {
+              "label": "E-posta",
+              "message": "Lütfen geçerli bir e-posta adresi giriniz."
+            },
+            "password": {
+              "label": "Hesap Şifresi",
+              "message": "Şifreniz en az 8 karakter uzunluğunda olmalı, en az bir büyük harf, bir küçük harf ve bir rakam içermelidir."
+            },
+            "username": {
+              "label": "Kullanıcı Adı",
+              "message": "Kullanıcı adınız en az 4 karakterden oluşmalı ve yalnızca harf ile rakam içermelidir."
+            }
+          }
+        },
+        "forgotPassword": {
+          "label": "Şifremi Unuttum",
+          "sublabel": "Aşağıdaki adımları takip ederek şifrenizi sıfırlayabilirsiniz.",
+          "footer": {
+            "button": "Şifrenizi Hatırladınız Mı?"
+          },
+          "toast": {
+            "error": "Girilen e-posta adresine ait hesap bulunamadı. Lütfen e-posta adresinizi kontrol ediniz.",
+            "success": "Şifre sıfırlama bağlantısı e-posta adresinize gönderildi."
+          },
+          "input": {
+            "email": {
+              "label": "E-posta Adresi",
+              "message": "Lütfen geçerli bir e-posta adresi giriniz."
+            }
+          }
+        },
+        "refreshPassword": {
+          "label": "Şifrenizi Yenileyin",
+          "sublabel": "Yeni bir şifre belirleyerek hesabınızı daha güvenli hale getirin.",
+          "footer": {
+            "button": "Şifrenizi Hatırladınız Mı?"
+          },
+          "toast": {
+            "error": "Hata: Şifre sıfırlama bağlantısı geçersiz veya yeni şifre önceki şifrenizle aynı olamaz. Lütfen farklı bir şifre belirleyin.",
+            "success": "Şifreniz başarıyla güncellendi."
+          },
+          "timeline": {
+            "verify": "Kimliğinizi doğrulayın",
+            "submit": "Şifrenizi Yenileyin"
+          },
+          "input": {
+            "password": {
+              "label": "Yeni Şifreniz",
+              "message": "Yeni şifreniz en az 8 karakter uzunluğunda olmalı, en az bir büyük harf, bir küçük harf ve bir rakam içermelidir."
+            }
+          }
+        }
+      }
+    }
+  }
+}

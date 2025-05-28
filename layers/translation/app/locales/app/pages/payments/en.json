@@ -1,0 +1,30 @@
+{
+  "app": {
+    "pages": {
+      "payments": {
+        "index": {
+          "layout": {
+            "methods": {
+              "label": "Payment Method",
+              "items": {
+                "paymentCard": "Pay with Credit Card"
+              }
+            },
+            "paymentCardMethod": {
+              "label1": "Credit Card Information",
+              "label2": "Address Information"
+            }
+          },
+          "toast": {
+            "success": "Your payment has been successfully received, you are being redirected to the balance page.",
+            "error": "There was an issue processing your payment. Please try again later."
+          },
+          "sidebar": {
+            "title": "Payment Information",
+            "description": "From this page, you can complete your payment or check the current status of your payment."
+          }
+        }
+      }
+    }
+  }
+}

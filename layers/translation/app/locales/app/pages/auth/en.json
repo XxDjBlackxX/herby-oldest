@@ -1,0 +1,104 @@
+{
+  "app": {
+    "pages": {
+      "auth": {
+        "login": {
+          "label": "Log In",
+          "sublabel": "Welcome back! We're happy to have you with us again.",
+          "footer": {
+            "button": "Don't Have an Account?"
+          },
+          "toast": {
+            "error": "An error occurred while logging in. Please check your information and try again.",
+            "success": "Login successful, welcome back!"
+          },
+          "timeline": {
+            "verify": "Verify that this account belongs to you",
+            "submit": "Log In"
+          },
+          "input": {
+            "email": {
+              "label": "Email",
+              "message": "Please enter a valid email address."
+            },
+            "password": {
+              "label": "Password",
+              "message": "Please enter your password completely. Your password must be at least 8 characters long."
+            }
+          }
+        },
+        "register": {
+          "label": "Create an Account",
+          "sublabel": "Once you create your account, a secure and enjoyable experience awaits you.",
+          "footer": {
+            "button": "Already Have an Account?"
+          },
+          "toast": {
+            "error": "An error occurred during registration. Please check your information and try again.",
+            "success": "Registration successful, welcome!"
+          },
+          "input": {
+            "name": {
+              "label": "First Name",
+              "message": "Please enter your first name completely."
+            },
+            "surname": {
+              "label": "Last Name",
+              "message": "Please enter your last name completely."
+            },
+            "email": {
+              "label": "Email",
+              "message": "Please enter a valid email address."
+            },
+            "password": {
+              "label": "Account Password",
+              "message": "Your password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one number."
+            },
+            "username": {
+              "label": "Username",
+              "message": "Your username must be at least 4 characters long and contain only letters and numbers."
+            }
+          }
+        },
+        "forgotPassword": {
+          "label": "Forgot Password",
+          "sublabel": "Follow the steps below to reset your password.",
+          "footer": {
+            "button": "Remembered Your Password?"
+          },
+          "toast": {
+            "error": "No account found with the entered email address. Please check your email address.",
+            "success": "A password reset link has been sent to your email address."
+          },
+          "input": {
+            "email": {
+              "label": "Email Address",
+              "message": "Please enter a valid email address."
+            }
+          }
+        },
+        "refreshPassword": {
+          "label": "Reset Your Password",
+          "sublabel": "Set a new password to make your account more secure.",
+          "footer": {
+            "button": "Remembered Your Password?"
+          },
+          "toast": {
+            "error": "Error: The password reset link is invalid, or the new password cannot be the same as the previous one. Please choose a different password.",
+            "success": "Your password has been successfully updated."
+          },
+          "timeline": {
+            "verify": "Verify Your Identity",
+            "submit": "Reset Your Password"
+          },
+          "input": {
+            "password": {
+              "label": "New Password",
+              "message": "Your new password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one number."
+            }
+          }
+        }
+      }
+    }
+  }
+}

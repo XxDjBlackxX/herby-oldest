@@ -1,0 +1,68 @@
+{
+  "app": {
+    "pages": {
+      "soundbite": {
+        "index": {
+          "separator": {
+            "broadcasters": "Broadcasters Using This Soundbite"
+          }
+        },
+        "discover": {
+          "title": "Discover Soundbites",
+          "tabs": {
+            "mostLiked": "Most Liked",
+            "newUploads": "Newest Uploads",
+            "mostAddedBroadcastContent": "Most Added To Broadcast Content"
+          },
+          "meta": {
+            "title": "Explore Audio Tracks",
+            "description": "Add audio tracks to your streaming library and even earn money from them"
+          }
+        },
+        "search": {
+          "title": "Search Soundbite"
+        },
+        "create": {
+          "title": "Create Soundbite",
+          "description": "Create a unique soundbite to entertain your audience and attract the community's attention!",
+          "meta": {
+            "title": "Create Soundbite",
+            "description": "Create a unique soundbite to entertain your audience and attract the community's attention!"
+          },
+          "options": {
+            "uploadAudio": {
+              "title": "Audio / Video",
+              "description": "You can upload audio or video files up to 30 MB."
+            },
+            "uploadThumbnail": {
+              "title": "GIF / Image",
+              "description": "You can upload GIFs or images up to 30 MB."
+            },
+            "title": { "label": "Title", "placeholder": "Funniest of the Day" },
+            "visibility": {
+              "label": "Visibility",
+              "placeholder": "Select Visibility",
+              "items": {
+                "public": "Public",
+                "private": "Private"
+              }
+            },
+            "tags": {
+              "label": "Tags",
+              "placeholder": "Enter tags"
+            }
+          },
+          "toast": {
+            "error": "An error occurred while creating the soundbite.",
+            "success": "Soundbite successfully created."
+          },
+          "button": {
+            "prev": "Previous",
+            "next": "Next",
+            "create": "Create"
+          }
+        }
+      }
+    }
+  }
+}

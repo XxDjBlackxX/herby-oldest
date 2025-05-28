@@ -1,0 +1,72 @@
+{
+  "app": {
+    "components": {
+      "shared": {
+        "tools": {
+          "selectCurrencyDropdown": { "value": "Currency Used {name}" },
+          "downloaderLinks": {
+            "downloader": "{company} Downloader"
+          },
+          "extrasDropdown": {
+            "button": {
+              "createSoundbite": "Create Soundbite",
+              "discoverSoundbite": "Discover Soundbites"
+            }
+          }
+        },
+        "profile": {
+          "dropdown": {
+            "button": {
+              "settings": "Settings",
+              "profile": "View Profile",
+              "broadcastProfile": "Broadcast Profile",
+              "dashboard": "Dashboard",
+              "createSoundbite": "Create Soundbite",
+              "logout": "Log Out"
+            }
+          },
+          "sidebarDropdown": {
+            "button": {
+              "homepage": "Home Page",
+              "settings": "Settings",
+              "profile": "View Profile",
+              "broadcastProfile": "Broadcast Profile",
+              "createSoundbite": "Create Sound"
+            }
+          },
+          "hoverCard": {
+            "followers": "Follower Count"
+          }
+        },
+        "sheetItems": {
+          "settings": {
+            "profile": {
+              "index": "Profile Settings",
+              "edit": "Edit Profile",
+              "connections": "Connections"
+            },
+            "account": {
+              "index": "Account Settings",
+              "password": "Change Password",
+              "email": "Update Email Address"
+            },
+            "applications": {
+              "index": "Application Settings",
+              "view": "View Applications",
+              "create": "Create Application"
+            },
+            "displayed": {
+              "index": "Display Settings",
+              "theme": "Theme",
+              "language": "Language"
+            },
+            "auth": {
+              "index": "Auth",
+              "protection": "Protection Settings"
+            }
+          }
+        }
+      }
+    }
+  }
+}

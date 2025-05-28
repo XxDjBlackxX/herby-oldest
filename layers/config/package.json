@@ -1,0 +1,25 @@
+{
+  "name": "@layers/config",
+  "private": true,
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "build": "NUXT_TELEMETRY_DISABLED=1 nuxt generate"
+  },
+  "devDependencies": {
+    "@layers/translation": "*",
+    "@layers/ui": "*",
+    "@repo/typescript-config": "*",
+    "@layers/utils": "*"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.0.0",
+    "@nuxt/image": "^1.9.0",
+    "@nuxtjs/robots": "^5.2.4",
+    "@nuxtjs/sitemap": "^7.2.6",
+    "nuxt": "^3.14.159",
+    "reka-ui": "^2.0.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}

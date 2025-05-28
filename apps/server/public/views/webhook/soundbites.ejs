@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-container: center;
+        background-color: transparent;
+      }
+
+      #soundbite h1,
+      #soundbite p {
+        margin: 0;
+        text-align: center;
+      }
+
+      #soundbite {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 4rem;
+        max-width: 400px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        border-radius: 36px;
+      }
+
+      #image {
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+      }
+
+      #sender {
+        font-size: 50px;
+        font-weight: 600;
+        color: white;
+      }
+
+      #title {
+        font-size: 30px;
+        font-weight: 600;
+        color: #6d6d6d;
+      }
+
+      .zoomIn {
+        animation: zoomIn 0.5s ease forwards;
+      }
+      @keyframes zoomIn {
+        from {
+          opacity: 0;
+          transform: scale(0.5);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      .zoomOut {
+        animation: zoomOut 0.5s ease forwards;
+      }
+      @keyframes zoomOut {
+        from {
+          opacity: 1;
+          transform: scale(1);
+        }
+        to {
+          opacity: 0;
+          transform: scale(0.5);
+        }
+      }
+    </style>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+  </head>
+
+  <body>
+    <div id="container"></div>
+
+    <script>
+      const id = "<%= id %>";
+      const SERVER_URL = "<%= SERVER_URL %>";
+      const soundbiteQueue = [];
+      let isPlaying = false;
+      const socket = io(SERVER_URL);
+
+      socket.on(`/webhook/${id}/soundbites`, (data) => {
+        soundbiteQueue.push(data);
+        if (!isPlaying) {
+          playNext();
+        }
+      });
+
+      function createSoundbite({ thumbnail, title, sender }) {
+        const soundbite = document.createElement("div");
+        soundbite.id = "soundbite";
+        soundbite.classList.add("zoomIn");
+
+        const imageElement = document.createElement("img");
+        imageElement.src = thumbnail;
+        imageElement.id = "image";
+
+        const senderElement = document.createElement("h1");
+        senderElement.textContent = sender;
+        senderElement.id = "sender";
+
+        const titleElement = document.createElement("p");
+        titleElement.textContent = title;
+        titleElement.id = "title";
+
+        soundbite.append(imageElement, senderElement, titleElement);
+        return soundbite;
+      }
+
+      function playSoundbite({ audio:audioURL, thumbnail, title, sender }) {
+        return new Promise((resolve, reject) => {
+          const audio = new Audio(audioURL);
+          audio.muted = true;
+
+          audio
+            .play()
+            .then(() => {
+              audio.muted = false;
+              const soundbite = createSoundbite({ thumbnail, title, sender });
+              document.getElementById("container").appendChild(soundbite);
+
+              audio.onended = () => {
+                soundbite.classList.replace("zoomIn", "zoomOut");
+                soundbite.addEventListener("animationend", () => {
+                  soundbite.remove();
+                  resolve();
+                }, { once: true });
+              };
+            })
+            .catch(reject);
+        });
+      }
+
+      async function playNext() {
+        if (soundbiteQueue.length === 0) {
+          isPlaying = false;
+          return;
+        }
+
+        isPlaying = true;
+        const nextSoundbite = soundbiteQueue.shift();
+        try {
+          await playSoundbite(nextSoundbite);
+        } catch (error) {
+          console.error(error);
+        }
+        playNext();
+      }
+    </script>
+  </body>
+</html>

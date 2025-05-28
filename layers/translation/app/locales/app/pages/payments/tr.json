@@ -1,0 +1,30 @@
+{
+  "app": {
+    "pages": {
+      "payments": {
+        "index": {
+          "layout": {
+            "methods": {
+              "label": "Ödeme Yöntemi",
+              "items": {
+                "paymentCard": "Kredi Kartı İle Öde"
+              }
+            },
+            "paymentCardMethod": {
+              "label1": "Kredi Kartı Bilgileri",
+              "label2": "Adres Bilgileri"
+            }
+          },
+          "toast": {
+            "success": "Ödemeniz başarıyla alındı, bakiye sayfasına yönlendiriliyorsunuz.",
+            "error": "Ödeme alınırken bir sorun oluştu. Lütfen daha sonra tekrar deneyin."
+          },
+          "sidebar": {
+            "title": "Ödeme Bilgileri",
+            "description": "Bu sayfadan ödemenizi tamamlayabilir veya ödemenizin güncel durumunu kontrol edebilirsiniz."
+          }
+        }
+      }
+    }
+  }
+}

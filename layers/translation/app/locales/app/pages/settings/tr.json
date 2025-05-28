@@ -1,0 +1,199 @@
+{
+  "app": {
+    "pages": {
+      "settings": {
+        "profile": {
+          "edit": {
+            "title": "Profil Düzenleme",
+            "fileUpload": {
+              "avatar": {
+                "title": "Profil Fotoğrafı",
+                "description": "Lütfen en az 300x300 boyutlarında, net ve güncel bir fotoğraf seçiniz. GIF formatı desteklenir ve maksimum dosya boyutu 5MB'tır."
+              },
+              "banner": {
+                "title": "Afiş Resmi",
+                "description": "Lütfen en az 600x350 boyutlarında, kaliteli bir afiş resmi yükleyiniz. GIF dosyaları kabul edilir ve maksimum dosya boyutu 5MB'tır."
+              }
+            },
+            "input": {
+              "username": {
+                "label": "Kullanıcı Adı",
+                "message": "Kullanıcı adınız en az 4 karakterden oluşmalı ve yalnızca harf ile rakam içermelidir."
+              },
+              "description": {
+                "label": "Profil Açıkalması",
+                "message": "Profil açıklamanız 10 ile 300 karakter arasında olmalıdır."
+              }
+            },
+            "button": {
+              "updateInfo": "Bilgilerimi Güncelle"
+            },
+            "toast": {
+              "success": {
+                "uploadAvatar": "Profil fotoğrafınız başarıyla güncellendi.",
+                "uploadBanner": "Afiş resminiz başarıyla güncellendi.",
+                "updateInfo": "Kullanıcı bilgileriniz başarıyla güncellendi."
+              },
+              "error": {
+                "uploadAvatar": "Profil fotoğrafı yüklenirken bir sorun oluştu. Lütfen dosya formatı ve boyutunu kontrol edin.",
+                "uploadBanner": "Afiş resmi yüklenirken bir sorun oluştu. Lütfen dosya formatı ve boyutunu kontrol edin.",
+                "updateInfo": "Kullanıcı bilgilerini güncellerken bir hata oluştu. Lütfen tekrar deneyiniz."
+              }
+            }
+          },
+          "connections": {
+            "title": "Bağlantılar",
+            "button": {
+              "connect": "Bağlan",
+              "update": "Güncelle",
+              "disconnect": "Bağlantıyı Kes"
+            },
+            "items": {
+              "discord": {
+                "label": "Discord Bağlantısı",
+                "description": "Discord ile ilgili işlemlere erişmek için hesabınızı bağlayınız."
+              },
+              "twitch": {
+                "label": "Twitch Bağlantısı",
+                "description": "Twitch ile ilgili işlemlere erişmek için hesabınızı bağlayınız."
+              },
+              "github": {
+                "label": "Github Bağlantısı",
+                "description": "Github ile ilgili işlemlere erişmek için hesabınızı bağlayınız."
+              },
+              "kick": {
+                "label": "Kick Bağlantısı",
+                "description": "Kick ile ilgili işlemlere erişmek için hesabınızı bağlayınız."
+              }
+            }
+          }
+        },
+        "account": {
+          "password": {
+            "title": "Şifreyi Değiştir",
+            "button": {
+              "change": "Şifreyi Değiştir"
+            },
+            "toast": {
+              "success": "E-postanıza doğrulama kodu gönderildi.",
+              "error": "Şifre değiştirilirken bir hata oluştu. Lütfen tekrar deneyiniz."
+            },
+            "message": {
+              "success": "Şifreniz başarıyla güncellendi. Yeni şifreniz: {password}",
+              "error": "Şifreniz güncellenirken bir sorun oluştu. Lütfen daha sonra tekrar deneyiniz."
+            },
+            "input": {
+              "currentPassword": {
+                "label": "Şimdiki Şifreniz",
+                "message": "Şifreniz en az 8 karakter uzunluğunda olmalı, en az bir büyük harf, bir küçük harf ve bir rakam içermelidir."
+              },
+              "newPassword": {
+                "label": "Yeni Şifreniz",
+                "message": "Şifreniz en az 8 karakter uzunluğunda olmalı, en az bir büyük harf, bir küçük harf ve bir rakam içermelidir."
+              },
+              "newPasswordRepeat": {
+                "label": "Yeni Şifreniz Tekrar",
+                "message": "Şifreniz en az 8 karakter uzunluğunda olmalı, en az bir büyük harf, bir küçük harf ve bir rakam içermelidir."
+              }
+            }
+          },
+          "email": {
+            "title": "E-posta Adresini Değiştir",
+            "button": {
+              "change": "E-posta Değiştir"
+            },
+            "toast": {
+              "success": "E-postanıza doğrulama kodu gönderildi.",
+              "error": "E-posta değiştirilirken bir hata oluştu. Lütfen tekrar deneyiniz."
+            },
+            "message": {
+              "success": "E-posta adresiniz başarıyla güncellendi. Yeni e-posta: {email}",
+              "error": "E-posta güncellenirken bir sorun oluştu. Lütfen daha sonra tekrar deneyiniz."
+            },
+            "input": {
+              "currentEmail": {
+                "label": "Şimdiki E-posta",
+                "message": "Lütfen geçerli bir e-posta adresi giriniz."
+              },
+              "newEmail": {
+                "label": "Yeni Email",
+                "message": "Lütfen geçerli bir e-posta adresi giriniz."
+              },
+              "newEmailRepeat": {
+                "label": "Yeni Email Tekrarı",
+                "message": "Lütfen geçerli bir e-posta adresi giriniz."
+              }
+            }
+          }
+        },
+        "applications": {
+          "view": {
+            "title": "Başvurularınızı Görüntüleyin",
+            "table": {
+              "head": {
+                "status": "Başvuru Durumu",
+                "type": "Başvuru Türü",
+                "id": "Başvuru Kimliği",
+                "supervisory": "Denetleyici"
+              },
+              "cell": {
+                "type": {
+                  "broadcaster": "Yayıncı Başvurusu"
+                },
+                "status": {
+                  "pending": "Başvuru Beklemede",
+                  "success": "Başvuru Onaylandı",
+                  "canceled": "Başvuru İptal Edildi",
+                  "in-progress": "Başvuru İşlemde"
+                },
+                "supervisory": "Atanmamış"
+              }
+            }
+          },
+          "create": {
+            "title": "Yeni Başvuru Oluştur",
+            "items": {
+              "broadcaster": {
+                "title": "Yayıncı Başvurusu",
+                "description": "Yayıncı başvurusu yaparak içeriklerinizi daha geniş kitlelere ulaştırabilir, ek avantajlardan yararlanabilirsiniz.",
+                "button": "Yayıncı Olmak İçin Başvur"
+              }
+            }
+          }
+        },
+        "displayed": {
+          "language": {
+            "title": "Dil Seçimi",
+            "button": {
+              "change": "Dili Değiştir",
+              "current": "Şu Anda Kullanılan"
+            }
+          },
+          "theme": {
+            "title": "Tema Ayarları",
+            "items": {
+              "light": "Aydınlık Tema",
+              "dark": "Karanlık Tema"
+            }
+          }
+        },
+        "auth": {
+          "protection": {
+            "title": "Hesap Koruması",
+            "items": {
+              "login": {
+                "label": "Giriş Doğrulaması",
+                "description": "Giriş doğrulamasını aktif hale getirirseniz, tüm giriş işlemleriniz kayıt altına alınacak ve giriş yaptığınızda e-postanıza bir doğrulama kodu gönderilecektir."
+              }
+            },
+            "button": "Koruma Ayarlarını Kaydet",
+            "toast": {
+              "success": "Koruma ayarları başarıyla kaydedildi.",
+              "error": "Koruma ayarları kaydedilirken bir hata oluştu. Lütfen tekrar deneyiniz."
+            }
+          }
+        }
+      }
+    }
+  }
+}

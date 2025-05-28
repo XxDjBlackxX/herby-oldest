@@ -1,0 +1,27 @@
+{
+  "common": {
+    "meta": {
+      "title": "Yeni Nesil Kütüphane Herby",
+      "description": "Yayıncıların dünyasına adım at, onları destekle, etkileşim kur ve eğlencenin keyfini çıkar!"
+    },
+    "error": {
+      "page": {
+        "title": "Sanırım bir hata oluştu!",
+        "button": "Ana Sayfaya Dön"
+      },
+      "default": "Bir hata oluştu, lütfen tekrar deneyin."
+    },
+    "who": "Kim",
+    "check": "Kontrol Et",
+    "submit": "Devam Et",
+    "next": "İleri",
+    "prev": "Geri",
+    "orbit": "Orbit",
+    "duration": "Süre",
+    "context": "Bağlam",
+    "environment": "Ortam",
+    "sender": "Gönderen",
+    "by": "Tarafından",
+    "percentage": "% {value}"
+  }
+}

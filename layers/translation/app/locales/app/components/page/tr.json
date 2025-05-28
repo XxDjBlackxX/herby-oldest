@@ -1,0 +1,52 @@
+{
+  "app": {
+    "components": {
+      "page": {
+        "payment": {
+          "paymentCardInformationForm": {
+            "input": {
+              "cardNumber": {
+                "label": "Kart Numarası",
+                "message": "Geçerli bir kart numarası giriniz."
+              },
+              "cardHolderName": {
+                "label": "Kart Sahibi",
+                "message": "Kart sahibinin adını giriniz."
+              },
+              "cvc": {
+                "message": "Geçerli bir CVC kodu giriniz."
+              },
+              "expireDate": {
+                "label": "Son Kullanma Tarihi",
+                "message": "Son kullanma tarihini MM/YY formatında giriniz."
+              }
+            }
+          },
+          "addressInformationForm": {
+            "input": {
+              "addressLine": {
+                "label": "Adres Satırı",
+                "placeholder": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
+                "message": "Lütfen adres satırını doğru giriniz."
+              },
+              "city": {
+                "label": "Şehir",
+                "placeholder": "Şehir Seçin",
+                "message": "Lütfen bir şehir adı giriniz."
+              },
+              "country": {
+                "label": "Ülke",
+                "placeholder": "Ülke Seçin",
+                "message": "Lütfen bir ülke adı giriniz."
+              },
+              "zipCode": {
+                "label": "Posta Kodu",
+                "message": "Lütfen geçerli bir posta kodu giriniz."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

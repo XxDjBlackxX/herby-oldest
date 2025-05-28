@@ -1,0 +1,78 @@
+{
+  "app": {
+    "pages": {
+      "index": {
+        "title": "Ses ile Yayıncıları Destekle!",
+        "description": "Yayıncıların dünyasına adım at, onları destekle, etkileşim kur ve eğlencenin keyfini çıkar!",
+        "button": "Hemen katıl ve bu eşsiz deneyimi keşfet!",
+        "separator": {
+          "tools": "Araçlar"
+        }
+      },
+      "orbits": {
+        "title": "Ödeme Kredileri",
+        "description": "Ödemenizi yaptığınızdan emin olduktan sonra lütfen sayfayı yenileyip güncel bilgilerinizi görüntüleyin.",
+        "meta": {
+          "title": "Ödeme Kredileri",
+          "description": "Ödemenizi yaptığınızdan emin olduktan sonra lütfen sayfayı yenileyip güncel bilgilerinizi görüntüleyin."
+        },
+        "dialog": {
+          "title": "Satın Alma",
+          "description": "Devam butonuna bastığınızda ödeme sayfasına yönlendirileceksiniz."
+        },
+        "toast": {
+          "success": "Ödeme talebiniz başarıyla oluşturuldu, yönlendiriliyorsunuz...",
+          "error": "Ödeme isteği oluşturulurken bir sorun oluştu."
+        }
+      },
+      "b": {
+        "button": {
+          "homepage": "Ana Sayfaya Dön"
+        },
+        "orbitCard": {
+          "title": "Orbitlerim",
+          "getOrbit": "Orbit Satın Al"
+        },
+        "toast": {
+          "follow": {
+            "true": "Yayıncı başarıyla takip edildi",
+            "false": "Yayıncıyı takip etmeyi bıraktın"
+          },
+          "soundbite": {
+            "success": "Ses başarıyla satın alındı",
+            "error": "Ses satın almada bir sorun oluştu"
+          }
+        },
+        "dialog": {
+          "soundbite": {
+            "title": "Ses'i Satın Almak İstediğinizden Emin misiniz?",
+            "description": "Ses'i satın aldığınızda, {orbit} tutarındaki orbit hesabınızdan düşülecektir."
+          }
+        }
+      },
+      "u": {
+        "tabs": {
+          "created": "Oluşturulanlar",
+          "liked": "Beğenilenler"
+        },
+        "toast": {
+          "follow": {
+            "true": "Kullanıcı başarıyla takip edildi",
+            "false": "Kullanıcıyı takip etmeyi bıraktınız"
+          }
+        },
+        "information": {
+          "followers": "Takipçiler",
+          "badges": {
+            "admin": "Yönetici",
+            "user": "Kullanıcı",
+            "moderator": "Moderatör",
+            "broadcaster": "Yayıncı",
+            "supervisory": "Denetleyici",
+            "financier": "Muhasebeci"
+          }
+        }
+      }
+    }
+  }
+}

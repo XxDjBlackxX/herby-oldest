@@ -1,0 +1,72 @@
+{
+  "app": {
+    "components": {
+      "soundbite": {
+        "plugins": {
+          "like": {
+            "toast": {
+              "true": "You liked {title} post.",
+              "false": "You unliked {title} post."
+            }
+          }
+        },
+        "rippleMenu": {
+          "index": {
+            "openWeb": "Open in Web"
+          },
+          "broadcast": {
+            "add": {
+              "button": "Add to Broadcast Content",
+              "dialog": {
+                "title": "Are you sure you want to add this content to the broadcast?",
+                "description": "Once you add the content to the broadcast, it will be visible and accessible to viewers."
+              }
+            },
+            "remove": {
+              "button": "Remove from Stream Content",
+              "dialog": {
+                "title": "Are you sure you want to remove this content?",
+                "description": "When you remove the content, this audio will not be available to viewers."
+              }
+            },
+            "test": {
+              "button": "Test Content",
+              "dialog": {
+                "title": "Are you sure you want to test this audio?",
+                "description": "This audio will be sent for testing when the test starts."
+              }
+            },
+            "become": "Become a Broadcaster"
+          },
+          "settings": {
+            "delete": {
+              "button": "Permanently Delete Audio",
+              "dialog": {
+                "title": "Are you sure you want to delete this audio?",
+                "description": "When you delete an audio, it will not affect broadcasters using it, but it will be removed from the audio library."
+              }
+            }
+          },
+          "toast": {
+            "broadcast": {
+              "index": {
+                "add": "{title} was successfully added to the broadcast.",
+                "remove": "{title} was successfully removed from the broadcast."
+              },
+              "test": {
+                "success": "Audio tested successfully.",
+                "error": "An error occurred while testing the audio."
+              }
+            },
+            "settings": {
+              "delete": {
+                "success": "The audio was deleted successfully.",
+                "error": "An error occurred while deleting the audio."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

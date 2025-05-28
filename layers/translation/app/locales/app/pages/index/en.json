@@ -1,0 +1,78 @@
+{
+  "app": {
+    "pages": {
+      "index": {
+        "title": "Support Broadcasters with Soundbite!",
+        "description": "Step into the world of broadcasters, support them, interact, and enjoy the fun!",
+        "button": "Join now and explore this unique experience!",
+        "separator": {
+          "tools": "Tools"
+        }
+      },
+      "orbits": {
+        "title": "Payment Orbits",
+        "description": "After making sure you have made your payment, please refresh the page and view your updated information.",
+        "meta": {
+          "title": "Payment Orbits",
+          "description": "After making sure you have made your payment, please refresh the page to view your updated information."
+        },
+        "dialog": {
+          "title": "Purchase",
+          "description": "When you click the continue button, you will be directed to the payment page."
+        },
+        "toast": {
+          "success": "Your payment request has been successfully created, you are being redirected to...",
+          "error": "There was a problem creating the payment request."
+        }
+      },
+      "b": {
+        "button": {
+          "homepage": "Return to Homepage"
+        },
+        "orbitCard": {
+          "title": "My Orbits",
+          "getOrbit": "Purchase Orbit"
+        },
+        "toast": {
+          "follow": {
+            "true": "Publisher successfully followed",
+            "false": "You have unfollowed the publisher"
+          },
+          "soundbite": {
+            "success": "Soundbite purchased successfully",
+            "error": "There was an issue purchasing the soundbite"
+          }
+        },
+        "dialog": {
+          "soundbite": {
+            "title": "Are you sure you want to purchase the soundbite?",
+            "description": "When you purchase the soundbite, {orbit} will be deducted from your orbit account."
+          }
+        }
+      },
+      "u": {
+        "tabs": {
+          "created": "Created",
+          "liked": "Liked"
+        },
+        "toast": {
+          "follow": {
+            "true": "User successfully followed",
+            "false": "You have unfollowed the user"
+          }
+        },
+        "information": {
+          "followers": "Followers",
+          "badges": {
+            "admin": "Admin",
+            "user": "User",
+            "moderator": "Moderator",
+            "broadcaster": "Broadcaster",
+            "supervisory": "Supervisor",
+            "financier": "Accountant"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "app": {
+    "components": {
+      "shared": {
+        "tools": {
+          "selectCurrencyDropdown": {
+            "value": "Kullanılan Para Birim {name}"
+          },
+          "downloaderLinks": {
+            "downloader": "{company} İndirici"
+          },
+          "extrasDropdown": {
+            "button": {
+              "createSoundbite": "Ses Oluştur",
+              "discoverSoundbite": "Sesleri Keşfet"
+            }
+          }
+        },
+        "profile": {
+          "dropdown": {
+            "button": {
+              "settings": "Ayarlar",
+              "profile": "Profili Görüntüle",
+              "broadcastProfile": "Yayın Profili",
+              "dashboard": "Gösterge Paneli",
+              "createSoundbite": "Ses Oluştur",
+              "logout": "Çıkış Yap"
+            }
+          },
+          "sidebarDropdown": {
+            "button": {
+              "homepage": "Ana Sayfa",
+              "settings": "Ayarlar",
+              "profile": "Profili Görüntüle",
+              "broadcastProfile": "Yayın Profili",
+              "createSoundbite": "Ses Oluştur"
+            }
+          },
+          "hoverCard": {
+            "followers": "Takipçi Sayısı"
+          }
+        },
+        "sheetItems": {
+          "settings": {
+            "profile": {
+              "index": "Profil Ayarları",
+              "edit": "Profili Düzenle",
+              "connections": "Bağlantılar"
+            },
+            "account": {
+              "index": "Hesap Ayarları",
+              "password": "Şifreyi Değiştir",
+              "email": "E-Posta Adresini Güncelle"
+            },
+            "applications": {
+              "index": "Başvuru Ayarları",
+              "view": "Başvurularını Görüntüle",
+              "create": "Başvuru Oluştur"
+            },
+            "displayed": {
+              "index": "Görüntüleme Ayarları",
+              "theme": "Tema",
+              "language": "Dil"
+            },
+            "auth": {
+              "index": "Yetkilendirme",
+              "protection": "Koruma Ayarları"
+            }
+          }
+        }
+      }
+    }
+  }
+}

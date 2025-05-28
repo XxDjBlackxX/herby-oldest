@@ -1,0 +1,52 @@
+{
+  "app": {
+    "components": {
+      "page": {
+        "payment": {
+          "paymentCardInformationForm": {
+            "input": {
+              "cardNumber": {
+                "label": "Card Number",
+                "message": "Please enter a valid card number."
+              },
+              "cardHolderName": {
+                "label": "Cardholder Name",
+                "message": "Please enter the cardholder's name."
+              },
+              "cvc": {
+                "message": "Please enter a valid CVC code."
+              },
+              "expireDate": {
+                "label": "Expiration Date",
+                "message": "Please enter the expiration date in MM/YY format."
+              }
+            }
+          },
+          "addressInformationForm": {
+            "input": {
+              "addressLine": {
+                "label": "Address Line",
+                "placeholder": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
+                "message": "Please enter a valid address line."
+              },
+              "city": {
+                "label": "City",
+                "placeholder": "Select City",
+                "message": "Please enter a city name."
+              },
+              "country": {
+                "label": "Country",
+                "placeholder": "Select Country",
+                "message": "Please enter a country name."
+              },
+              "zipCode": {
+                "label": "Postal Code",
+                "message": "Please enter a valid postal code."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

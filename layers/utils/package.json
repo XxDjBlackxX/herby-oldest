@@ -1,0 +1,25 @@
+{
+  "name": "@layers/utils",
+  "private": true,
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "build": "NUXT_TELEMETRY_DISABLED=1 nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/types": "^2.18.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@pinia/nuxt": "^0.9.0",
+    "axios": "^1.7.7",
+    "nuxt": "^3.14.159",
+    "@repo/typescript-config": "*",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "prettier": "^3.3.3",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@vueuse/nuxt": "^11.1.0",
+    "@repo/client-types": "*"
+  }
+}

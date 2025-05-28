@@ -1,0 +1,193 @@
+{
+  "app": {
+    "pages": {
+      "admin": {
+        "finance": {
+          "analytics": {
+            "available": {
+              "title": "Kullanılabilir Orbit",
+              "description": "Bu bölüm, kullanıcının anlık olarak harcayabileceği orbit miktarını gösterir. Kullanıcı, belirlenen kurallar çerçevesinde bu bakiyeyi kullanabilir."
+            },
+            "pending": {
+              "title": "Bekleyen Orbit",
+              "description": "Bu bölüm, henüz onay sürecinde olan veya belirli koşullara bağlı orbit işlemlerini içerir. Kullanıcı, ilgili kriterler sağlanana kadar bu bakiyeyi kullanamaz."
+            },
+            "withdrawable": {
+              "title": "Çekilebilir Orbit",
+              "description": "Bu bölüm, kullanıcının mevcut orbit bakiyesinden çekim yapabileceği tutarı gösterir. Çekim işlemi, belirlenen minimum limit ve geçerli koşullara uygun olduğu sürece gerçekleştirilebilir."
+            }
+          },
+          "transactions": {
+            "options": {
+              "status": {
+                "label": "İşlem Durumu",
+                "items": {
+                  "pending": "Bekleyen İşlemler",
+                  "failed": "Başarısız İşlemler",
+                  "canceled": "İptal Edilen İşlemler",
+                  "success": "Başarılı İşlemler"
+                }
+              },
+              "priority": {
+                "label": "Öncelik",
+                "items": {
+                  "low": "Öncelik Durumu Düşük İşlemler",
+                  "normal": "Öncelik Durumu Normal İşlemler",
+                  "high": "Öncelik durumu Yüksek İşlemler"
+                }
+              }
+            },
+            "table": {
+              "head": {
+                "author": "İşlemi Oluşturan",
+                "manage": "Yönet",
+                "currency": "Para Birimi",
+                "type": "İşlem Türü",
+                "amount": "İşlem Miktarı",
+                "payee": "Alıcı",
+                "id": "İşlem Kimliği"
+              },
+              "cell": {
+                "type": {
+                  "income": "Gelir",
+                  "expense": "Gider",
+                  "withdraw": "Çekim"
+                },
+                "payee": "Alıcı bulunamadı veya girilmedi",
+                "manage": "Bu İşlem Yönetilemez"
+              }
+            }
+          },
+          "currencies": {
+            "input": {
+              "name": {
+                "label": "Para Birimi Adı",
+                "message": "Lütfen para birimi adını eksiksiz giriniz."
+              },
+              "code": {
+                "label": "Para Birimi Kodu",
+                "message": "Lütfen para birimi kodunu eksiksiz giriniz."
+              },
+              "symbol": {
+                "label": "Para Birimi Sembolü",
+                "message": "Lütfen para birimi sembolünü eksiksiz giriniz."
+              },
+              "rate": {
+                "label": "Döviz Kuru",
+                "message": "Lütfen döviz kuru değerini eksiksiz giriniz."
+              }
+            },
+            "toast": {
+              "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+              "success": "Para birimi başarıyla oluşturuldu."
+            },
+            "button": "Para Birimini Oluştur",
+            "table": {
+              "head": {
+                "name": "Para Birimi Adı",
+                "code": "Para Birimi Kodu",
+                "symbol": "Para Birimi Sembolü",
+                "rate": "Döviz Kuru"
+              }
+            }
+          }
+        },
+        "supervisory": {
+          "applications": {
+            "tabs": {
+              "pending": "Bekleyen Başvurular",
+              "success": "Tamamlanmış Başvurular",
+              "inProgress": "İşlemde Olan Başvurular"
+            },
+            "table": {
+              "head": {
+                "author": "Kullanıcı",
+                "id": "Başvuru Kimliği",
+                "type": "Başvuru Türü",
+                "status": "Başvuru Durumu",
+                "supervisory": "Denetleyici"
+              },
+              "cell": {
+                "type": {
+                  "broadcaster": "Yayıncı"
+                },
+                "status": {
+                  "placeholder": {
+                    "pending": "Beklemede",
+                    "canceled": "İptal Edildi",
+                    "success": "Onaylandı",
+                    "in-progress": "İşlemde"
+                  },
+                  "options": {
+                    "pending": "Başvuruyu Beklemeye Al",
+                    "canceled": "Başvuruyu İptal Et",
+                    "success": "Başvuruyu Onayla",
+                    "in-progress": "Başvuruyu İşleme Al"
+                  }
+                },
+                "supervisory": "Atanmamış"
+              }
+            }
+          }
+        },
+        "users": {
+          "id": {
+            "tabs": {
+              "display": "Görünüm",
+              "permissions": "İzinler"
+            },
+            "display": {
+              "name": "Ad",
+              "surname": "Soyad",
+              "username": "Kullanıcı Adı",
+              "description": "Açıklama",
+              "email": "E-posta"
+            },
+            "permissions": {
+              "user": {
+                "label": "Kullanıcı",
+                "description": "Temel site işlevlerini kullanabilir ve genel etkileşimlerde bulunabilir."
+              },
+              "admin": {
+                "label": "Yönetici",
+                "description": "Sistem ve kullanıcı yönetimi, içerik düzenleme dahil tüm site işlevlerine tam erişim sağlar."
+              },
+              "broadcaster": {
+                "label": "Yayıncı",
+                "description": "Platform üzerinde içerik oluşturabilir, düzenleyebilir ve yayınlayabilir."
+              },
+              "moderator": {
+                "label": "Moderatör",
+                "description": "İçerik ve kullanıcı denetimi yapabilir, sitenin düzeninin korunmasına katkıda bulunur."
+              },
+              "supervisory": {
+                "label": "Denetleyici",
+                "description": "Başvurular bize ulaştığında, bu başvuruları işleyip onaylayabilir veya reddedebilir."
+              },
+              "financier": {
+                "label": "Muhasebeci",
+                "description": "Muhasebe yetkisi verdiğinizde kullanıcı muhasebe işlemlerini kontrol edebilir."
+              }
+            }
+          }
+        },
+        "index": {
+          "homepage": {
+            "title": "Hoşgeldin",
+            "description": "Umarım bugün iyisinizdir. Siteyi kontrol ederken tarafsız olmayı unutmayın. İyi şanslar."
+          },
+          "searchUser": {
+            "table": {
+              "head": {
+                "username": "Kullanıcı Adı",
+                "avatar": "Avatar",
+                "id": "Kimlik",
+                "email": "E-posta"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "layers": {
+    "ui": {
+      "index": {
+        "exploreArea": "Explore",
+        "alertDialog": {
+          "button": {
+            "action": "Submit",
+            "cancel": "Cancel"
+          }
+        },
+        "form": {
+          "labels": {
+            "username": "User Name",
+            "password": "Password",
+            "email": "Email",
+            "name": "Name",
+            "surname": "Surname",
+            "currentEmail": "Current Email",
+            "newEmail": "New Email",
+            "newEmailAgain": "New Email (Again)",
+            "currentPassword": "Current Password",
+            "newPassword": "New Password",
+            "newPasswordAgain": "New Password (Again)",
+            "description": "Description",
+            "address": "Address",
+            "thumbnail": "Thumbnail",
+            "tags": "Tags",
+            "title": "Title",
+            "visibility": "Visibility",
+            "zipCode": "Zip Code",
+            "city": "City",
+            "country": "Country",
+            "gsmNumber": "Telephone Number",
+            "identityNumber": "Identity Number",
+            "cardHolderName": "Card Holder Name",
+            "expireMonth": "Expiration Month",
+            "expireYear": "Expiration Year",
+            "expireDate": "Expiration Date",
+            "number": "Number",
+            "addressLine": "Address Line",
+            "cardNumber": "Card Number"
+          }
+        },
+        "file": {
+          "fileUpload": {
+            "button": {
+              "select": "Select File"
+            },
+            "dialog": {
+              "items": {
+                "upload": "Select File"
+              }
+            },
+            "toast": {
+              "error": "Your file size is too large.",
+              "success": "The file has been successfully uploaded."
+            }
+          }
+        },
+        "image": {
+          "go": "Go To Image"
+        },
+        "field": {
+          "itemFields": "Show more items"
+        },
+        "searchBar": {
+          "placeholder": "Search..."
+        },
+        "superSelect": {
+          "inputPlaceHolder": "Search..."
+        }
+      }
+    }
+  }
+}

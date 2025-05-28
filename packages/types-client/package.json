@@ -1,0 +1,15 @@
+{
+  "name": "@repo/client-types",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/index.ts",
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "@repo/user-db": "*",
+    "@repo/financial-db": "*"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "mongoose": "^8.8.0"
+  }
+}

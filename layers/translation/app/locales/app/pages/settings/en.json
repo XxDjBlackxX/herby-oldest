@@ -1,0 +1,199 @@
+{
+  "app": {
+    "pages": {
+      "settings": {
+        "profile": {
+          "edit": {
+            "title": "Edit Profile",
+            "fileUpload": {
+              "avatar": {
+                "title": "Profile Picture",
+                "description": "Please select a clear and up-to-date photo with at least 300x300 resolution. GIF format is supported, and the maximum file size is 5MB."
+              },
+              "banner": {
+                "title": "Banner Image",
+                "description": "Please upload a high-quality banner image with at least 600x350 resolution. GIF files are accepted, and the maximum file size is 5MB."
+              }
+            },
+            "input": {
+              "username": {
+                "label": "Username",
+                "message": "Your username must be at least 4 characters long and contain only letters and numbers."
+              },
+              "description": {
+                "label": "Profile Description",
+                "message": "Your profile description should be between 10 and 300 characters."
+              }
+            },
+            "button": {
+              "updateInfo": "Update My Information"
+            },
+            "toast": {
+              "success": {
+                "uploadAvatar": "Your profile picture has been successfully updated.",
+                "uploadBanner": "Your banner image has been successfully updated.",
+                "updateInfo": "Your user information has been successfully updated."
+              },
+              "error": {
+                "uploadAvatar": "There was an issue uploading the profile picture. Please check the file format and size.",
+                "uploadBanner": "There was an issue uploading the banner image. Please check the file format and size.",
+                "updateInfo": "An error occurred while updating user information. Please try again."
+              }
+            }
+          },
+          "connections": {
+            "title": "Connections",
+            "button": {
+              "connect": "Connect",
+              "update": "Update",
+              "disconnect": "Disconnect"
+            },
+            "items": {
+              "discord": {
+                "label": "Discord Connection",
+                "description": "Connect your account to access Discord-related features."
+              },
+              "twitch": {
+                "label": "Twitch Connection",
+                "description": "Connect your account to access Twitch-related features."
+              },
+              "github": {
+                "label": "GitHub Connection",
+                "description": "Connect your account to access GitHub-related features."
+              },
+              "kick": {
+                "label": "Kick Connection",
+                "description": "Connect your account to access Kick-related features."
+              }
+            }
+          }
+        },
+        "account": {
+          "password": {
+            "title": "Change Password",
+            "button": {
+              "change": "Change Password"
+            },
+            "toast": {
+              "success": "A verification code has been sent to your email.",
+              "error": "An error occurred while changing the password. Please try again."
+            },
+            "message": {
+              "success": "Your password has been successfully updated. Your new password: {password}",
+              "error": "There was an issue updating your password. Please try again later."
+            },
+            "input": {
+              "currentPassword": {
+                "label": "Current Password",
+                "message": "Your password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, and one number."
+              },
+              "newPassword": {
+                "label": "New Password",
+                "message": "Your password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, and one number."
+              },
+              "newPasswordRepeat": {
+                "label": "Repeat New Password",
+                "message": "Your password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, and one number."
+              }
+            }
+          },
+          "email": {
+            "title": "Change Email Address",
+            "button": {
+              "change": "Change Email"
+            },
+            "toast": {
+              "success": "A verification code has been sent to your email.",
+              "error": "An error occurred while changing the email. Please try again."
+            },
+            "message": {
+              "success": "Your email address has been successfully updated. New email: {email}",
+              "error": "There was an issue updating your email. Please try again later."
+            },
+            "input": {
+              "currentEmail": {
+                "label": "Current Email",
+                "message": "Please enter a valid email address."
+              },
+              "newEmail": {
+                "label": "New Email",
+                "message": "Please enter a valid email address."
+              },
+              "newEmailRepeat": {
+                "label": "Repeat New Email",
+                "message": "Please enter a valid email address."
+              }
+            }
+          }
+        },
+        "applications": {
+          "view": {
+            "title": "View Your Applications",
+            "table": {
+              "head": {
+                "status": "Application Status",
+                "type": "Application Type",
+                "id": "Application ID",
+                "supervisory": "Supervisor"
+              },
+              "cell": {
+                "type": {
+                  "broadcaster": "Broadcaster Application"
+                },
+                "status": {
+                  "pending": "Application Pending",
+                  "success": "Application Success",
+                  "canceled": "Application Canceled",
+                  "in-progress": "Application In Progress"
+                },
+                "supervisory": "Unassigned"
+              }
+            }
+          },
+          "create": {
+            "title": "Create a New Application",
+            "items": {
+              "broadcaster": {
+                "title": "Broadcaster Application",
+                "description": "By applying as a broadcaster, you can reach wider audiences and benefit from additional advantages.",
+                "button": "Apply to Become a Broadcaster"
+              }
+            }
+          }
+        },
+        "displayed": {
+          "language": {
+            "title": "Language Selection",
+            "button": {
+              "change": "Change Language",
+              "current": "Currently Used"
+            }
+          },
+          "theme": {
+            "title": "Theme Settings",
+            "items": {
+              "light": "Light Theme",
+              "dark": "Dark Theme"
+            }
+          }
+        },
+        "auth": {
+          "protection": {
+            "title": "Account Protection",
+            "items": {
+              "login": {
+                "label": "Login Verification",
+                "description": "If you enable login verification, all login attempts will be logged, and a verification code will be sent to your email when you log in."
+              }
+            },
+            "button": "Save Protection Settings",
+            "toast": {
+              "success": "Protection settings have been successfully saved.",
+              "error": "An error occurred while saving protection settings. Please try again."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "app": {
+    "components": {
+      "soundbite": {
+        "plugins": {
+          "like": {
+            "toast": {
+              "true": "{title} gönderisini beğendiniz.",
+              "false": "{title} gönderisini beğenmekten vazgeçtiniz."
+            }
+          }
+        },
+        "rippleMenu": {
+          "index": {
+            "openWeb": "Web'de Aç"
+          },
+          "broadcast": {
+            "add": {
+              "button": "Yayın İçeriğine Ekle",
+              "dialog": {
+                "title": "Bu içeriği yayına eklemek istediğinize emin misiniz?",
+                "description": "İçeriği yayına eklediğinizde, izleyiciler tarafından görülebilir ve erişilebilir hale gelecektir."
+              }
+            },
+            "remove": {
+              "button": "Yayın İçeriklerinden Kaldır",
+              "dialog": {
+                "title": "Bu içeriği yayından kaldırmak istediğinize emin misiniz?",
+                "description": "İçeriği yayından kaldırdığınızda, izleyiciler bu sesi kullanamayacaktır."
+              }
+            },
+            "test": {
+              "button": "İçeriği Test Et",
+              "dialog": {
+                "title": "Bu sesi test etmek istediğinize emin misiniz?",
+                "description": "Test başladığında, bu ses test için gönderilecektir."
+              }
+            },
+            "become": "Yayıncı Ol"
+          },
+          "settings": {
+            "delete": {
+              "button": "Sesi Kalıcı Olarak Sil",
+              "dialog": {
+                "title": "Bu sesi silmek istediğinize emin misiniz?",
+                "description": "Sesi sildiğinizde, onu kullanan yayıncılar etkilenmeyecek ancak ses kütüphanesinden kaldırılacaktır."
+              }
+            }
+          },
+          "toast": {
+            "broadcast": {
+              "index": {
+                "add": "{title} başarıyla yayına eklendi.",
+                "remove": "{title} başarıyla yayından kaldırıldı."
+              },
+              "test": {
+                "success": "Ses başarıyla test edildi.",
+                "error": "Ses test edilirken bir hata oluştu."
+              }
+            },
+            "settings": {
+              "delete": {
+                "success": "Ses başarıyla silindi.",
+                "error": "Ses silinirken bir hata oluştu."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

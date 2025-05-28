@@ -1,0 +1,193 @@
+{
+  "app": {
+    "pages": {
+      "admin": {
+        "finance": {
+          "analytics": {
+            "available": {
+              "title": "Available Orbit",
+              "description": "This section shows the amount of orbit the user can currently spend. The user can use this balance within the defined rules."
+            },
+            "pending": {
+              "title": "Pending Orbit",
+              "description": "This section contains orbit transactions that are still under approval or dependent on certain conditions. The user cannot use this balance until the relevant criteria are met."
+            },
+            "withdrawable": {
+              "title": "Withdrawable Orbit",
+              "description": "This section shows the amount the user can withdraw from their current orbit balance. The withdrawal can be made as long as it meets the minimum limit and the valid conditions."
+            }
+          },
+          "transactions": {
+            "options": {
+              "status": {
+                "label": "Transaction Status",
+                "items": {
+                  "pending": "Pending Transactions",
+                  "failed": "Failed Transactions",
+                  "canceled": "Canceled Transactions",
+                  "success": "Successful Transactions"
+                }
+              },
+              "priority": {
+                "label": "Priority",
+                "items": {
+                  "low": "Low Priority Transactions",
+                  "normal": "Normal Priority Transactions",
+                  "high": "High Priority Transactions"
+                }
+              }
+            },
+            "table": {
+              "head": {
+                "author": "Author",
+                "manage": "Manage",
+                "currency": "Currency",
+                "type": "Transaction Type",
+                "amount": "Transaction Amount",
+                "payee": "Payee",
+                "id": "Transaction ID"
+              },
+              "cell": {
+                "type": {
+                  "income": "Income",
+                  "expense": "Expense",
+                  "withdraw": "Withdrawal"
+                },
+                "payee": "Payee not found or not provided",
+                "manage": "This transaction cannot be managed"
+              }
+            }
+          },
+          "currencies": {
+            "input": {
+              "name": {
+                "label": "Currency Name",
+                "message": "Please enter the currency name completely."
+              },
+              "code": {
+                "label": "Currency Code",
+                "message": "Please enter the currency code completely."
+              },
+              "symbol": {
+                "label": "Currency Symbol",
+                "message": "Please enter the currency symbol completely."
+              },
+              "rate": {
+                "label": "Exchange Rate",
+                "message": "Please enter the exchange rate value completely."
+              }
+            },
+            "toast": {
+              "error": "An error occurred. Please try again.",
+              "success": "Currency successfully created."
+            },
+            "button": "Create Currency",
+            "table": {
+              "head": {
+                "name": "Currency Name",
+                "code": "Currency Code",
+                "symbol": "Currency Symbol",
+                "rate": "Exchange Rate"
+              }
+            }
+          }
+        },
+        "supervisory": {
+          "applications": {
+            "tabs": {
+              "pending": "Pending Applications",
+              "success": "Completed Applications",
+              "inProgress": "Applications In Progress"
+            },
+            "table": {
+              "head": {
+                "author": "User",
+                "id": "Application ID",
+                "type": "Application Type",
+                "status": "Application Status",
+                "supervisory": "Supervisor"
+              },
+              "cell": {
+                "type": {
+                  "broadcaster": "Broadcaster"
+                },
+                "status": {
+                  "placeholder": {
+                    "pending": "Pending",
+                    "canceled": "Canceled",
+                    "success": "Approved",
+                    "in-progress": "In Progress"
+                  },
+                  "options": {
+                    "pending": "Put Application on Hold",
+                    "canceled": "Cancel Application",
+                    "success": "Approve Application",
+                    "in-progress": "Process Application"
+                  }
+                },
+                "supervisory": "Not Assigned"
+              }
+            }
+          }
+        },
+        "users": {
+          "id": {
+            "tabs": {
+              "display": "Display",
+              "permissions": "Permissions"
+            },
+            "display": {
+              "name": "First Name",
+              "surname": "Last Name",
+              "username": "Username",
+              "description": "Description",
+              "email": "Email"
+            },
+            "permissions": {
+              "user": {
+                "label": "User",
+                "description": "Can use basic site functions and engage in general interactions."
+              },
+              "admin": {
+                "label": "Administrator",
+                "description": "Full access to all site functions, including system and user management, and content editing."
+              },
+              "broadcaster": {
+                "label": "Broadcaster",
+                "description": "Can create, edit, and broadcast content on the platform."
+              },
+              "moderator": {
+                "label": "Moderator",
+                "description": "Can monitor content and users, helping maintain the site’s order."
+              },
+              "supervisory": {
+                "label": "Supervisor",
+                "description": "Can process, approve, or reject applications once they are submitted to us."
+              },
+              "financier": {
+                "label": "Accountant",
+                "description": "Has control over accounting tasks when granted accounting rights."
+              }
+            }
+          }
+        },
+        "index": {
+          "homepage": {
+            "title": "Welcome",
+            "description": "I hope you’re doing well today. Remember to stay impartial while reviewing the site. Good luck."
+          },
+          "searchUser": {
+            "table": {
+              "head": {
+                "username": "Username",
+                "avatar": "Avatar",
+                "id": "ID",
+                "email": "Email"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

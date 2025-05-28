@@ -1,0 +1,32 @@
+{
+  "app": {
+    "pages": {
+      "applications": {
+        "broadcaster": {
+          "toast": {
+            "error": "There was an issue creating the application",
+            "success": "The application was created successfully"
+          },
+          "button": "Apply",
+          "title": "Publisher Application",
+          "description": "Welcome to the BROADCASTER (Publisher) role! By joining this program, you have the opportunity to earn a sustainable income from the content you create on our platform. Our platform provides the ideal environment to showcase your audio content's creativity, your unique touches, and your professionalism. Once your application is success, you can list your content through your publishing panel and set the orbit value for each audio piece as you wish for sale. This system ensures that you receive fair compensation for your efforts in the digital world and that your value increases.",
+          "subDescription": "By switching to the BROADCASTER role, you can reach a wider audience with your content and seize the opportunity to earn additional income. Your application will unlock the doors to the exclusive publishing experience offered by our platform; we will be by your side with professional support, up-to-date information, and transparent management throughout the entire process. Please do not hesitate to contact us if you have any questions or need assistance.",
+          "items": {
+            "1": {
+              "title": "How It Works?",
+              "description": "Our platform allows users to produce and share their own audio content. Each audio piece is supported by carefully selected cover images that enhance its appeal. When you take on the BROADCASTER role, you can add the audio you create to your publishing panel and assign a orbit value for each piece as you decide. This way, you can price and offer your content for sale as you wish."
+            },
+            "2": {
+              "title": "Revenue Model",
+              "description": "On our platform, 1 orbit is equivalent to 1 Cent. Initially, a default commission of 50% is deducted from your earnings. However, if you are a contracted publisher, this rate may be updated to a different percentage determined by the platform management. This revenue model is designed within the framework of transparency and fairness, aiming for sustainable earnings for both you and our platform."
+            },
+            "3": {
+              "title": "Sales & Commission",
+              "description": "When a user purchases one of the audio contents listed on your publishing panel, the predetermined commission rate is automatically deducted from the paid orbits, and the remaining amount is directly orbited to your earnings. Once the purchase is success, this information is clearly displayed on your publishing screen. Thanks to this transparent system, your earnings can be monitored and managed in real time."
+            }
+          }
+        }
+      }
+    }
+  }
+}

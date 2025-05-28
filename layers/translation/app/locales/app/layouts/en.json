@@ -1,0 +1,93 @@
+{
+  "app": {
+    "layouts": {
+      "callback": {
+        "title": "Redirect Back • {title}",
+        "description": "Redirect back status page for {title}.",
+        "messages": {
+          "loading": "Connecting to {type} account, {title}...",
+          "connected": "Your {type} account has been successfully connected to {title}.",
+          "error": {
+            "connected": "An error occurred while connecting your {type} account to {title}."
+          }
+        },
+        "submessages": {
+          "connected": "You can return to {title} by closing this window.",
+          "error": {
+            "connected": "An error occurred while connecting. Please close this window and try again."
+          }
+        }
+      },
+      "admin": {
+        "title": "Admin Panel",
+        "breadcrumb": {
+          "homepage": "Home",
+          "admin": "Administrator",
+          "users": "Users",
+          "search-user": "Search Users",
+          "applications": "Applications",
+          "finance": "Finance",
+          "supervisory": "Supervisor",
+          "currencies": "Currencies",
+          "analytics": "Analytics",
+          "transactions": "Transactions"
+        },
+        "sidebarItems": {
+          "index": {
+            "index": "Dashboard",
+            "homepage": "Home",
+            "searchUser": "Search Users"
+          },
+          "finance": {
+            "index": "Finance",
+            "currencies": "Currencies",
+            "analytics": "Analytics",
+            "transactions": "Transactions"
+          },
+          "supervisory": {
+            "index": "Controller",
+            "applications": "Applications"
+          }
+        }
+      },
+      "auth": {
+        "other": "Other Options",
+        "loginWith": "Connect With {company}"
+      },
+      "dashboard": {
+        "title": "Dashboard",
+        "breadcrumb": {
+          "homepage": "Home",
+          "dashboard": "Dashboard",
+          "broadcast": "Broadcast",
+          "history": "Broadcast History",
+          "content": "Content",
+          "broadcast-soundbites": "Broadcast Sounds",
+          "payment-history": "Payment History",
+          "finance": "Finance",
+          "transactions": "Transactions"
+        },
+        "sidebarItems": {
+          "index": {
+            "index": "Dashboard",
+            "homepage": "Home"
+          },
+          "finance": {
+            "index": "Finance",
+            "paymentHistory": "Payment History",
+            "transactions": "Transactions"
+          },
+          "content": {
+            "index": "Contents",
+            "broadcastSoundbites": "Broadcast Sounds"
+          },
+          "broadcast": {
+            "index": "Broadcast",
+            "history": "Broadcast History"
+          }
+        }
+      },
+      "settings": "Settings"
+    }
+  }
+}

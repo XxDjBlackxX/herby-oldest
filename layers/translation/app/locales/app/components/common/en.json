@@ -1,0 +1,76 @@
+{
+  "app": {
+    "components": {
+      "common": {
+        "card": {
+          "createSoundbite": {
+            "title": "Create Soundbite",
+            "button": "Get Started",
+            "description": "Take your first step into the world of soundbite, support content broadcasters, and be part of the fun!"
+          },
+          "authForgotPassword": {
+            "title": "Forgot Your Password?",
+            "button": "Reset Your Password",
+            "description": "Easily reset your password to regain access to your account."
+          },
+          "dashboard": {
+            "title": "Dashboard",
+            "button": "Continue",
+            "description": "Manage all your soundbite activities in one place and track your performance."
+          },
+          "settings": {
+            "title": "Account Settings",
+            "button": "Continue",
+            "description": "Easily update your account information and preferences."
+          },
+          "discoverSoundbite": {
+            "title": "Featured Soundbites",
+            "button": "Discover",
+            "description": "Browse the most popular soundbites and join the fun!"
+          },
+          "authLogin": {
+            "title": "Log In",
+            "button": "Log In",
+            "description": "Log in to your account and step into the world of soundbite."
+          },
+          "authRegister": {
+            "title": "Sign Up",
+            "button": "Sign Up",
+            "description": "Create an account and become part of the soundbite world."
+          },
+          "balanceHistory": {
+            "title": "Balance History",
+            "button": "View History",
+            "description": "View details of all your deposits, withdrawals, and spending transactions."
+          }
+        },
+        "header": {
+          "end": {
+            "login": "Log In"
+          }
+        },
+        "footer": {
+          "description": "With {title}, you can create soundbites and join our community.",
+          "app": {
+            "index": "App",
+            "appearance": "Appearance",
+            "language": "Language"
+          },
+          "user": {
+            "index": "User",
+            "login": "Log In",
+            "register": "Sign Up",
+            "settings": "Settings",
+            "forgotPassword": "Forgot Password",
+            "admin": "Admin"
+          },
+          "soundbite": {
+            "index": "Soundbite",
+            "create": "Create Soundbite",
+            "discover": "Discover Soundbites"
+          }
+        }
+      }
+    }
+  }
+}

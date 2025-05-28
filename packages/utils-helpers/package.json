@@ -1,0 +1,13 @@
+{
+  "name": "@repo/helpers-utils",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "devDependencies": {
+    "@repo/typescript-config": "*"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "common": {
+    "meta": {
+      "title": "New Generation Library Herby",
+      "description": "Step into the world of broadcasters, support them, interact and enjoy the fun!"
+    },
+    "error": {
+      "page": {
+        "title": "It looks like something went wrong!",
+        "button": "Return to Homepage"
+      },
+      "default": "An error occurred, please try again."
+    },
+    "check": "Check",
+    "submit": "Continue",
+    "next": "Next",
+    "prev": "Back",
+    "orbit": "Orbit",
+    "duration": "Duration",
+    "context": "Context",
+    "environment": "Environment",
+    "sender": "Sender",
+    "by": "By",
+    "who": "Who",
+    "percentage": "{value} %"
+  }
+}

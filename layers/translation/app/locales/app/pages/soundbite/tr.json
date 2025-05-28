@@ -1,0 +1,68 @@
+{
+  "app": {
+    "pages": {
+      "soundbite": {
+        "index": {
+          "separator": {
+            "broadcasters": "Bu Sesi Kullanan Yayıncılar"
+          }
+        },
+        "discover": {
+          "title": "Sesleri Keşfet",
+          "tabs": {
+            "mostLiked": "En Çok Beğenilenler",
+            "newUploads": "En Yeni Yüklenenler",
+            "mostAddedBroadcastContent": "En Çok Eklenen Yayın İçeriği"
+          },
+          "meta": {
+            "title": "Ses Parçalarını Keşfet",
+            "description": "Akış kitaplığınıza ses parçaları ekleyebilir ve hatta bunlardan para kazanabilirsiniz"
+          }
+        },
+        "search": {
+          "title": "Ses Ara"
+        },
+        "create": {
+          "title": "Ses Oluştur",
+          "description": "İzleyicilerinizi eğlendirmek ve topluluğun ilgisini çekmek için yaratıcı bir ses oluşturabilirsiniz!",
+          "meta": {
+            "title": "Ses Oluştur",
+            "description": "İzleyicilerinizi eğlendirmek ve topluluğun ilgisini çekmek için yaratıcı bir ses oluşturabilirsiniz!"
+          },
+          "options": {
+            "uploadAudio": {
+              "title": "Ses / Video",
+              "description": "Maksimum 30 MB boyutunda ses veya video yükleyebilirsiniz."
+            },
+            "uploadThumbnail": {
+              "title": "GIF / Görsel",
+              "description": "Maksimum 30 MB boyutunda GIF veya görsel yükleyebilirsiniz."
+            },
+            "title": { "label": "Başlık", "placeholder": "Günün En Komiği" },
+            "visibility": {
+              "label": "Görünürlük",
+              "placeholder": "Görünürlük Seçin",
+              "items": {
+                "public": "Herkese Açık",
+                "private": "Özel"
+              }
+            },
+            "tags": {
+              "label": "Etiketler",
+              "placeholder": "Etiket girin"
+            }
+          },
+          "toast": {
+            "error": "Ses oluşturulurken bir hata oluştu.",
+            "success": "Ses başarıyla oluşturuldu."
+          },
+          "button": {
+            "prev": "Önceki",
+            "next": "Sonraki",
+            "create": "Oluştur"
+          }
+        }
+      }
+    }
+  }
+}

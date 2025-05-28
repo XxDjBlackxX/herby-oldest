@@ -1,0 +1,22 @@
+{
+  "name": "@repo/cache-db",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types/index.ts",
+    "./models": "./src/models/index.ts",
+    "./connection": "./src/connection.ts"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "@repo/helpers-utils": "*",
+    "@repo/permission-utils": "*"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0"
+  }
+}

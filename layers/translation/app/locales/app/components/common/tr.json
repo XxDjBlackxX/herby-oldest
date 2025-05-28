@@ -1,0 +1,76 @@
+{
+  "app": {
+    "components": {
+      "common": {
+        "card": {
+          "createSoundbite": {
+            "title": "Ses Oluştur",
+            "button": "Hemen Başlayın",
+            "description": "Ses dünyasına ilk adımınızı atın, içerik üreticilerine destek verin ve eğlenceye katılın!"
+          },
+          "authForgotPassword": {
+            "title": "Şifrenizi mi unuttunuz?",
+            "button": "Şifrenizi Sıfırlayın",
+            "description": "Hesabınıza tekrar erişebilmek için şifrenizi kolaylıkla sıfırlayın."
+          },
+          "dashboard": {
+            "title": "Gösterge Paneli",
+            "button": "Devam Edin",
+            "description": "Tüm ses etkinliklerinizi tek bir platformda yönetin ve performansınızı takip edin."
+          },
+          "settings": {
+            "title": "Hesap Ayarları",
+            "button": "Devam Edin",
+            "description": "Hesap bilgilerinizi ve tercihlerinizi zahmetsizce güncelleyin."
+          },
+          "discoverSoundbite": {
+            "title": "Öne Çıkan Sesler",
+            "button": "Keşfedin",
+            "description": "En beğenilen sesleri inceleyin ve eğlenceye ortak olun!"
+          },
+          "authLogin": {
+            "title": "Giriş Yap",
+            "button": "Giriş Yapın",
+            "description": "Hesabınıza giriş yapın ve Ses dünyasının kapılarını aralayın."
+          },
+          "authRegister": {
+            "title": "Kayıt Ol",
+            "button": "Kayıt Olun",
+            "description": "Hesap oluşturun ve Ses dünyasının renkli atmosferine katılın."
+          },
+          "balanceHistory": {
+            "title": "Bakiye Geçmişi",
+            "button": "Geçmişi İnceleyin",
+            "description": "Tüm para yatırma, çekme ve harcama işlemlerinizin detaylarını görüntüleyin."
+          }
+        },
+        "header": {
+          "end": {
+            "login": "Giriş Yap"
+          }
+        },
+        "footer": {
+          "description": "{title} sayesinde ses oluşturabilir ve topluluğumuza katılabilirsiniz.",
+          "app": {
+            "index": "Uygulama",
+            "appearance": "Görünüm",
+            "language": "Dil"
+          },
+          "user": {
+            "index": "Kullanıcı",
+            "login": "Giriş Yap",
+            "register": "Kayıt Ol",
+            "settings": "Ayarlar",
+            "forgotPassword": "Şifremi Unuttum",
+            "admin": "Yönetici"
+          },
+          "soundbite": {
+            "index": "Ses",
+            "create": "Ses Oluştur",
+            "discover": "Sesleri Keşfet"
+          }
+        }
+      }
+    }
+  }
+}

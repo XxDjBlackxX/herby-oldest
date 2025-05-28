@@ -1,0 +1,140 @@
+{
+  "app": {
+    "pages": {
+      "dashboard": {
+        "index": {
+          "homepage": {
+            "orbits": {
+              "available": {
+                "title": "Available Orbit",
+                "description": "The total amount of orbits you can currently spend. You can use this balance under the current rules."
+              },
+              "pending": {
+                "title": "Pending Orbit",
+                "description": "Orbits that are in the approval process or subject to specific conditions. You cannot use this balance until the necessary conditions are met."
+              },
+              "withdrawable": {
+                "title": "Withdrawable Orbit",
+                "description": "The amount of orbit you can withdraw from your current balance. You can withdraw if it meets the minimum withdrawal limit and the conditions are suitable."
+              }
+            },
+            "withdraw": {
+              "title": "Create Withdrawal Request",
+              "description": "You can create a request to withdraw the balance in your account. Once your withdrawal request is completed, the payment will be made via the specified method. Please ensure that you enter the withdrawal amount and target details correctly.",
+              "button": "Create Request",
+              "insufficient": "To create a withdrawal request, your balance must be at least {amount}.",
+              "form": {
+                "title": "Withdrawal Request",
+                "message": "Please ensure that you enter your IBAN correctly. We do not accept responsibility for incorrectly entered information.",
+                "input": {
+                  "fullName": {
+                    "label": "Full Name",
+                    "placeholder": "For example: Namik from Ankara",
+                    "message": "Please enter a valid first and last name. Only letters and spaces are allowed."
+                  },
+                  "iban": {
+                    "label": "IBAN",
+                    "placeholder": "TR321...",
+                    "message": "Please enter your IBAN in the correct format. (For example: TR321234567890123456789012)"
+                  }
+                },
+                "button": "Submit Request",
+                "toast": {
+                  "error": "There was an issue with the withdrawal request. Please try again or contact support.",
+                  "success": "Your withdrawal request has been successfully created. Your transaction is under review."
+                }
+              }
+            }
+          }
+        },
+        "content": {
+          "broadcastSoundbites": {
+            "separator": {
+              "soundbites": "My Personal Sounds"
+            },
+            "table": {
+              "soundbite": "Sound",
+              "context": "Context",
+              "orbit": "Sales Orbit"
+            }
+          }
+        },
+        "finance": {
+          "paymentHistory": {
+            "table": {
+              "head": {
+                "status": "Payment Status",
+                "currency": "Currency",
+                "totalPrice": "Payment Fee",
+                "id": "Payment ID"
+              },
+              "cell": {
+                "status": {
+                  "pending": "Payment Pending",
+                  "failed": "Payment Failed",
+                  "canceled": "Payment Canceled",
+                  "success": "Payment Successful"
+                }
+              }
+            }
+          },
+          "transactions": {
+            "table": {
+              "head": {
+                "status": "Transaction Status",
+                "currency": "Currency",
+                "type": "Transaction Type",
+                "amount": "Transaction Amount",
+                "payee": "Payee",
+                "id": "Transaction ID",
+                "priority": "Priority"
+              },
+              "cell": {
+                "status": {
+                  "pending": "Transaction Pending",
+                  "failed": "Transaction Failed",
+                  "canceled": "Transaction Canceled",
+                  "success": "Transaction Successful"
+                },
+                "type": {
+                  "income": "Income",
+                  "expense": "Expense",
+                  "withdraw": "Withdrawal"
+                },
+                "payee": "Payee not found or not provided",
+                "priority": {
+                  "low": "Low",
+                  "high": "High Priority",
+                  "normal": "Normal"
+                }
+              }
+            }
+          }
+        },
+        "broadcast": {
+          "history": {
+            "separator": {
+              "soundbites": "My Personal Sounds"
+            },
+            "table": {
+              "head": {
+                "soundbite": "Sound",
+                "sender": "Sender",
+                "env": "Environment",
+                "context": "Context",
+                "orbit": "Sales Orbit"
+              },
+              "cell": {
+                "env": {
+                  "test": "Test Sound",
+                  "sale": "Sale"
+                },
+                "noOrbit": "No Orbit"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

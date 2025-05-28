@@ -1,0 +1,58 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "start": {
+      "cache": false,
+      "persistent": true
+    }
+  },
+  "globalEnv": [
+    "PROJECT_TITLE",
+    "DISCORD_REDIRECT_URI",
+    "DISCORD_CLIENT_ID",
+    "DISCORD_CLIENT_SECRET",
+    "DISCORD_CLIENT_TOKEN",
+    "DISCORD_OAUTH_URI",
+    "NODEMAILER_PASS",
+    "NODEMAILER_USER",
+    "TWITCH_CLIENT_SECRET",
+    "TWITCH_CLIENT_ID",
+    "TWITCH_REDIRECT_URI",
+    "TWITCH_OAUTH_URI",
+    "GIT_REDIRECT_URI",
+    "GIT_CLIENT_ID",
+    "GIT_OAUTH_URI",
+    "GIT_CLIENT_SECRET",
+    "SERVER_URL",
+    "CLIENT_URL",
+    "SESSION_SECRET",
+    "FILE_SIZE_LIMIT",
+    "COMMISSION",
+    "DO_CDN_URL",
+    "DO_ENDPOINT",
+    "DO_REGION",
+    "DO_BUCKET_NAME",
+    "DO_ACCESS_KEY",
+    "DO_SECRET_KEY",
+    "KICKPOINT_TOKEN",
+    "IYZICO_API_KEY",
+    "IYZICO_SECRET_KEY",
+    "IYZICO_URI",
+    "FINANCIAL_MONGODB_URI",
+    "CACHE_MONGODB_URI",
+    "USER_MONGODB_URI",
+    "KICK_CLIENT_ID",
+    "KICK_CLIENT_SECRET",
+    "KICK_REDIRECT_URI",
+    "MIN_WITHDRAWABLE_ORBIT"
+  ],
+  "envMode": "loose"
+}

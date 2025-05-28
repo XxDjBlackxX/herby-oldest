@@ -1,0 +1,76 @@
+{
+  "layers": {
+    "ui": {
+      "index": {
+        "exploreArea": "Araştır",
+        "alertDialog": {
+          "button": {
+            "action": "Devam Et",
+            "cancel": "İptal Et"
+          }
+        },
+        "form": {
+          "labels": {
+            "username": "Kullanıcı Adı",
+            "password": "Şifre",
+            "email": "E-posta",
+            "name": "Ad",
+            "surname": "Soyad",
+            "currentEmail": "Mevcut E-posta",
+            "newEmail": "Yeni E-posta",
+            "newEmailAgain": "Yeni E-posta (Tekrar)",
+            "currentPassword": "Mevcut Şifre",
+            "newPassword": "Yeni Şifre",
+            "newPasswordAgain": "Yeni Şifre (Tekrar)",
+            "description": "Açıklama",
+            "address": "Adres",
+            "thumbnail": "Küçük Resim",
+            "tags": "Etiketler",
+            "title": "Başlık",
+            "visibility": "Görünürlük",
+            "zipCode": "Posta Kodu",
+            "city": "Şehir",
+            "country": "Ülke",
+            "gsmNumber": "Telefon Numarası",
+            "identityNumber": "Kimlik Numarası",
+            "cardHolderName": "Görünen İsim",
+            "expireMonth": "Son Kullanma Ayı",
+            "expireYear": "Son Kullanma Yılı",
+            "expireDate": "Son Kullanma Tarihi",
+            "number": "Numara",
+            "addressLine": "Adres Satırı",
+            "cardNumber": "Kart Numarası"
+          }
+        },
+        "file": {
+          "fileUpload": {
+            "button": {
+              "select": "Dosya Seç"
+            },
+            "dialog": {
+              "items": {
+                "upload": "Dosya Seç"
+              }
+            },
+            "toast": {
+              "error": "Dosya boyutunuz belirtilen limitten fazla.",
+              "success": "Dosya başarıyla yüklendi."
+            }
+          }
+        },
+        "image": {
+          "go": "Resme Git"
+        },
+        "field": {
+          "itemFields": "Daha fazla öğe göster"
+        },
+        "searchBar": {
+          "placeholder": "Ara..."
+        },
+        "superSelect": {
+          "inputPlaceHolder": "Ara..."
+        }
+      }
+    }
+  }
+}
